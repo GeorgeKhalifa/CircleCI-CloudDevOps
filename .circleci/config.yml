@@ -25,7 +25,7 @@ jobs:
       - run:
           name: "Say Name"
           command: |
-            echo "text to output here" > output.txt
+            echo "text to output here" > ~/output.txt
       - persist_to_workspace:
           root: ~/
           paths:
