@@ -33,3 +33,4 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-name
+      - say-hello
